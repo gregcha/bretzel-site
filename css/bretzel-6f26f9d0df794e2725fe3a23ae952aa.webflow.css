@@ -135,12 +135,12 @@ h1 {
   text-align: center;
 }
 
-.button--header {
+.button-navbar {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 16px 40px;
+  padding: 12px 20px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -163,25 +163,27 @@ h1 {
   -webkit-text-fill-color: inherit;
 }
 
-.button--header:hover {
+.button-navbar:hover {
   background-color: #e68c5a;
 }
 
-.button-text {
+.button-navbar-text {
   position: static;
+  display: block;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
   font-family: Poppins, sans-serif;
   color: #fff;
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 14px;
+  line-height: 20px;
   font-weight: 500;
   text-decoration: none;
 }
 
-.icon-button {
+.button-navbar-icon {
+  max-width: 20px;
   margin-right: 10px;
 }
 
@@ -527,12 +529,17 @@ h1 {
   padding-top: 12px;
   padding-bottom: 12px;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
   border-color: #f69a66;
   border-radius: 30px;
+  background-color: #f69a66;
   font-family: Poppins, sans-serif;
-  color: #f69a66;
+  color: #fff;
   font-weight: 500;
+}
+
+.nav-button:hover {
+  background-color: #e58c5a;
 }
 
 .footer {
@@ -648,12 +655,12 @@ h1 {
   color: rgba(49, 47, 46, 0.5);
 }
 
-.div-block {
+.header-title-title {
   min-height: 270px;
   margin-bottom: 40px;
 }
 
-.button-text-mobile {
+.button-header-text-mobile {
   position: static;
   display: none;
   -webkit-box-flex: 0;
@@ -960,7 +967,7 @@ h1 {
   text-align: left;
 }
 
-.subtitle {
+.header-subtitle {
   margin-bottom: 20px;
   font-family: Poppins, sans-serif;
   color: rgba(49, 47, 46, 0.75);
@@ -969,12 +976,12 @@ h1 {
   text-align: left;
 }
 
-.subtitle.text-center {
+.header-subtitle.text-center {
   font-size: 24px;
   text-align: center;
 }
 
-.heading-1-2 {
+.header-title {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Recoleta, sans-serif;
@@ -985,13 +992,13 @@ h1 {
   letter-spacing: -1px;
 }
 
-.heading-1-2.text-center {
+.header-title.text-center {
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: center;
 }
 
-.heading-1-2.text-center.mb-40px {
+.header-title.text-center.mb-40px {
   display: none;
   margin-top: 0px;
   margin-bottom: 40px;
@@ -1002,6 +1009,7 @@ h1 {
   position: relative;
   left: 470px;
   top: 230px;
+  display: block;
 }
 
 .illustration-img-3-2 {
@@ -1060,7 +1068,7 @@ h1 {
 
 .image-2 {
   height: 44px;
-  max-width: 80%;
+  max-width: 150px;
 }
 
 .nav-link-2 {
@@ -1068,6 +1076,82 @@ h1 {
   padding-bottom: 12px;
   font-family: Poppins, sans-serif;
   font-weight: 500;
+}
+
+.button-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 40px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 34px;
+  background-color: #f69a66;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-decoration: none;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+}
+
+.button-header:hover {
+  background-color: #e68c5a;
+}
+
+.button-header-text {
+  position: static;
+  display: block;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.button-header-icon {
+  max-width: 32px;
+  margin-right: 10px;
+}
+
+.header-title-mobile {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Recoleta, sans-serif;
+  color: #312f2e;
+  font-size: 80px;
+  line-height: 88px;
+  text-align: left;
+  letter-spacing: -1px;
+}
+
+.header-title-mobile.text-center {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.header-title-mobile.text-center.mb-40px {
+  display: none;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: Recoleta, sans-serif;
 }
 
 @media screen and (max-width: 991px) {
@@ -1204,7 +1288,7 @@ h1 {
     margin-left: 0px;
   }
 
-  .div-block {
+  .header-title-title {
     display: none;
     min-height: 146px;
   }
@@ -1222,18 +1306,27 @@ h1 {
     min-height: 90px;
   }
 
-  .heading-1-2 {
+  .header-title {
     font-size: 44px;
     line-height: 48px;
   }
 
-  .heading-1-2.text-center.mb-40px {
+  .header-title.text-center.mb-40px {
     display: block;
   }
 
   .header-3 {
     height: auto;
     min-height: 680px;
+  }
+
+  .header-title-mobile {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .header-title-mobile.text-center.mb-40px {
+    display: block;
   }
 }
 
@@ -1243,7 +1336,28 @@ h1 {
     min-height: 780px;
   }
 
-  .button-text {
+  .brand.w--current {
+    height: 100%;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+
+  .button-navbar {
+    background-color: #e1e5f0;
+    background-clip: border-box;
+    -webkit-text-fill-color: inherit;
+    cursor: not-allowed;
+  }
+
+  .button-navbar:hover {
+    background-color: #e1e5f0;
+  }
+
+  .button-navbar-text {
+    display: none;
+  }
+
+  .button-navbar-icon {
     display: none;
   }
 
@@ -1253,8 +1367,12 @@ h1 {
     text-align: left;
   }
 
-  .button-text-mobile {
+  .button-header-text-mobile {
     display: block;
+    color: #312f2e;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
   }
 
   .header-center-box._75 {
@@ -1278,9 +1396,60 @@ h1 {
     min-height: 0px;
   }
 
+  .illustration-img-1-2 {
+    display: none;
+  }
+
+  .illustration-img-3-2 {
+    display: none;
+  }
+
   .header-3 {
     overflow: visible;
     min-height: 780px;
+  }
+
+  .illustration-img-2-2 {
+    display: none;
+  }
+
+  .illustration-img-4-2 {
+    display: none;
+  }
+
+  .image-2 {
+    max-width: 50%;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .icon-2 {
+    display: none;
+  }
+
+  .button-header {
+    background-color: #e1e5f0;
+    background-clip: border-box;
+    -webkit-text-fill-color: inherit;
+    cursor: not-allowed;
+  }
+
+  .button-header:hover {
+    background-color: #e1e5f0;
+  }
+
+  .button-header-text {
+    display: none;
+  }
+
+  .button-header-icon {
+    display: none;
+  }
+
+  .header-title-mobile.text-center.mb-40px {
+    font-size: 40px;
   }
 }
 
