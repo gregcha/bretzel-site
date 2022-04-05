@@ -1434,7 +1434,7 @@ h1 {
   }
 
   .paragraph {
-    margin-bottom: 0px;
+    margin-bottom: 40px;
     font-size: 16px;
   }
 
@@ -1596,6 +1596,10 @@ h1 {
     margin-bottom: 40px;
   }
 
+  .container--left {
+    margin-bottom: 0px;
+  }
+
   .card {
     min-height: 510px;
   }
@@ -1714,6 +1718,10 @@ h1 {
 
   .header-title-mobile.text-center.mb-40px {
     font-size: 36px;
+  }
+
+  .paragraph-2 {
+    margin-bottom: 40px;
   }
 
   ._2-columns-2 {
