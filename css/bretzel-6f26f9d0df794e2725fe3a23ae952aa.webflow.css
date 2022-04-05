@@ -1592,6 +1592,10 @@ h1 {
     display: none;
   }
 
+  .paragraph {
+    margin-bottom: 40px;
+  }
+
   .card {
     min-height: 510px;
   }
